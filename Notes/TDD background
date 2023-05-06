@@ -1,0 +1,36 @@
+WellsFargo TDD:
+- src
+	- main
+		- java
+			- base
+				- TestBase
+			- common
+				- CommonAction
+				- CommonWait
+			- objects
+				- HomePage
+				- CarPage
+			- util
+				- ExcelUtils
+				- JDBCUtils
+				- Configuration
+			- reporting
+				- ExtentReport
+				- Log
+		- resources
+			- configuration.properties
+	- test
+		- java
+			- auto
+				- AutoTest
+		- resources
+			- Test Data
+
+- testrunner.xml
+- pom.xml
+	- selenium
+	- testng
+	- webdrivermanger
+	- apache poi - excel
+	- ojdbc/mysqlconnector/postgresql driver - jdbc
+	- extentreporting
